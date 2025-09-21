@@ -13,18 +13,18 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: process.env.SESSION_ID || "", // Your bot's session ID 
-  PREFIX: getConfig("PREFIX") || ",", // Command prefix (e.g., ., /, !, *)
+  SESSION_ID: process.env.SESSION_ID || "suho~mYNWgbaQ#Z8KQOPteCqTXBXHhB5fGUocKhXpBSwA6coSFPnH_HLo", // Your bot's session ID 
+  PREFIX: getConfig("PREFIX") || ".", // Command prefix (e.g., ., /, !, *)
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot mode: on/off
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "Makima-XD", // Bot display name
-  MODE: getConfig("MODE") || process.env.MODE || "private", // Bot mode: public/private/group/inbox
+  MODE: getConfig("MODE") || process.env.MODE || "public", // Bot mode: public/private/group/inbox
   REPO: process.env.REPO || "https://github.com/NaCkS-ai/Makima-XD", // Bot GitHub repo dont change this❗️
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys", // Baileys version
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "27649342626", // Owner WhatsApp number
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94705104830", // Owner WhatsApp number
   OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Dev Sung", // Owner name
-  DEV: process.env.DEV || "27649342626", // Developer contact number
+  DEV: process.env.DEV || "94705104830", // Developer contact number
   DEVELOPER_NUMBER: '27649342626@s.whatsapp.net', // Developer WhatsApp ID
 
   // ===== AUTO-RESPONSE SETTINGS =====
